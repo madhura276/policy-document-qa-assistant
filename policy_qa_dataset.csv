@@ -1,0 +1,6 @@
+section_id,section_title,policy_text,policy_type
+S001,Liability Coverage,Liability coverage pays for injuries or property damage you cause to others in an accident.,Motor Insurance
+S002,Collision Coverage,Collision coverage pays to repair or replace your vehicle if it is damaged in an accident.,Motor Insurance
+S003,Comprehensive Coverage,"Comprehensive coverage protects against theft, fire, floods, and other non-collision damages.",Motor Insurance
+S004,Personal Injury Protection,Personal Injury Protection covers medical expenses for you and your passengers after an accident.,Motor Insurance
+S005,Uninsured Motorist Coverage,Uninsured motorist coverage protects you if you are hit by a driver without insurance.,Motor Insurance

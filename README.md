@@ -1,7 +1,6 @@
-# 📘 Assisto Technologies – LLM Assignment
-Task Selected: Policy Document Q&A Assistant
+# Policy Document Q&A Assistant
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Insurance policy documents are often lengthy and difficult to understand.
 Customers usually want quick answers to specific questions instead of reading
@@ -11,7 +10,7 @@ This project implements a Policy Document Q&A Assistant that allows users to
 ask questions about insurance policies and receive clear, simplified answers
 using a semantic Large Language Model (LLM).
 
-## 📂 Dataset Used
+##  Dataset Used
 
 A small CSV dataset is used as the knowledge base for this system.
 
@@ -28,7 +27,7 @@ Each record represents a key insurance policy section such as:
 The policy text from the dataset is combined and provided as context to the LLM
 for question answering.
 
-## 🧠 Approach (Step-by-Step)
+##  Approach (Step-by-Step)
 
 The system follows the logical steps outlined in the assignment:
 
@@ -52,7 +51,7 @@ raw policy text.
 **5. Display Answer**
 The final answer is displayed to the user in simple language.
 
-## 🤖 LLM Usage (IMPORTANT)
+##  LLM Usage (IMPORTANT)
 
 A transformer-based Large Language Model is used for:
 
@@ -68,7 +67,7 @@ A transformer-based Large Language Model is used for:
 - This allows the system to answer questions even when wording differs from the
 dataset text.
 
-## ❓ Types of Questions Users Can Ask
+##  Types of Questions Users Can Ask
 
 The system supports natural language questions such as:
 
@@ -83,7 +82,7 @@ The system supports natural language questions such as:
 These questions are answered using semantic LLM reasoning, not exact keyword
 matching.
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python 3.10
 - HuggingFace Transformers
@@ -91,7 +90,7 @@ matching.
 - Pandas
 - Semantic Question Answering (LLM-based NLP)
 
-## 📁 Project Structure
+##  Project Structure
 policy_document_qa_dataset/
 ├── app.py
 ├── dataset_loader.py
@@ -99,7 +98,7 @@ policy_document_qa_dataset/
 ├── requirements.txt
 └── README.md
 
-## ▶️ How to Run
+##  How to Run
 
 **1. Install dependencies:**
 
@@ -110,7 +109,7 @@ pip install -r requirements.txt
 python app.py
 3. Enter a question when prompted.
 
-## ✅ Summary
+##  Summary
 
 This project demonstrates how Large Language Models can be used to build a
 semantic Question & Answer system for insurance policy documents. By leveraging
